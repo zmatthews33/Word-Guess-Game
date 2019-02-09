@@ -1,0 +1,61 @@
+body {
+  font-family: "Permanent Marker";
+}
+.display-4 {
+  font-size: 5em;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 2px #111;
+}
+h1 {
+  text-align: center;
+  color: #fff;
+}
+h2 {
+    text-align: center;
+    color: #111;
+    font-size: 4em;
+    
+}
+
+.jumbotron-fluid {
+  background-image: url("../images/sgtpeppers.jpg");
+  background-size: cover;
+  background-position: center; /* or 50% 50% */
+  background-repeat: no-repeat;
+  margin-bottom: 0;
+  border:10px;
+  border-bottom-color: #111;
+}
+.jumbotron{
+    padding-top: 0px;
+    margin-bottom: 0;
+}
+
+span {
+  background-color: #777777;
+  background-color: rgba(182, 183, 176, .75);
+
+}
+
+.lead {
+  text-align: center;
+  color: #fff;
+  font-size: 1.5em;
+  text-shadow: 2px 2px #111;
+  
+}
+
+.lead2 {
+    text-align: center;
+    color: #111;
+    font-size: 1.5em;
+  }
+  
+.display-5 {
+    text-align: center;
+  color: #111;
+  font-size: 4em;
+}
+
+}
