@@ -25,7 +25,7 @@
   </head>
 
   <body>
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid border-bottom">
       <div class="container">
         <h1 class="display-4">HangMan Game</h1>
         <br />
@@ -33,7 +33,7 @@
         <p class="lead">
           <span>
             This is a word guess game I built using Javascript. The chosen
-            category is popular classic rock bands from the 60's and 70's.
+            category is popular bands from the 60's and 70's.
             <br />
             Let's see what ya got!
           </span>
@@ -42,21 +42,31 @@
     </div>
     <div class="jumbotron">
       <h2 class="display-5">Name That Band</h2>
-      <h2 class="display-6">_ _ _ _ _ _ _ _ _ _</h2>
-      <p class="lead2">
-        Press any key to start guessing!
-      </p>
+
+      <h3 id="youwin">YOU WIN!</h3>
+      <h3 id="gameover">GAME OVER!</h3>
+      <h3 id="pressKeyTryAgain">Press Any Key to Try Again!</h3>
+      <img id="hangmanImage" src="" alt="" />
+
+      <h2 id="currentWord"></h2>
+      <p class="lead2"></p>
       <hr class="my-4" />
       <h3>Wins:</h3>
+      <h3 id="winsTotal"></h3>
       <hr />
       <h3>Guesses Left:</h3>
+      <h3 id="guessesRemaining"></h3>
       <hr />
       <h3>Letters Already Guessed:</h3>
+      <h3 id="lettersGuessed"></h3>
       <hr />
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- reset game -->
+    <script>
+      resetGame();
+      updateDisplay();
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

@@ -1,41 +1,64 @@
 body {
   font-family: "Permanent Marker";
 }
+#currentWord {
+  letter-spacing: 12px;
+}
 .display-4 {
   font-size: 5em;
   text-align: center;
   color: #fff;
   text-shadow: 1px 2px #111;
 }
+.display-5 {
+  text-decoration: underline;
+}
 h1 {
   text-align: center;
   color: #fff;
 }
 h2 {
-    text-align: center;
-    color: #111;
-    font-size: 4em;
-    
+  text-align: center;
+  color: #111;
+  font-size: 4em;
+  letter-spacing: 10px;
+}
+h3 {
+  text-align: center;
+  color: #111;
+}
+img {
+  border: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#pressKeyTryAgain,
+#gameover,
+#youwin {
+  font-size: 4em;
+  display: none;
+  text-align: center;
+  color: #111;
+}
 .jumbotron-fluid {
   background-image: url("../images/sgtpeppers.jpg");
   background-size: cover;
   background-position: center; /* or 50% 50% */
   background-repeat: no-repeat;
   margin-bottom: 0;
-  border:10px;
+  border: 10px;
   border-bottom-color: #111;
 }
-.jumbotron{
-    padding-top: 0px;
-    margin-bottom: 0;
+.jumbotron {
+  padding-top: 0px;
+  margin-bottom: 0;
 }
 
 span {
   background-color: #777777;
-  background-color: rgba(182, 183, 176, .75);
-
+  background-color: rgba(182, 183, 176, 0.75);
 }
 
 .lead {
@@ -43,19 +66,16 @@ span {
   color: #fff;
   font-size: 1.5em;
   text-shadow: 2px 2px #111;
-  
 }
 
 .lead2 {
-    text-align: center;
-    color: #111;
-    font-size: 1.5em;
-  }
-  
-.display-5 {
-    text-align: center;
+  text-align: center;
   color: #111;
-  font-size: 4em;
+  font-size: 1.5em;
 }
 
+.display-5 {
+  text-align: center;
+  color: #111;
+  font-size: 4em;
 }
